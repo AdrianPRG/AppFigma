@@ -1,0 +1,94 @@
+{
+  "name": "comparadores",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "153:120",
+    "version": "5033803248",
+    "component-id": "d5e064b4a2d6c50902aea9530bf1b81e05984cc6"
+  },
+  "default": "comparadores",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "textocomparador"
+      }
+    ],
+    "modes": {
+      "comparadores": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "4.0",
+            "is-structured": "false",
+            "children": [
+              "textocomparador"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "225.78947368421052",
+              "saturation": "0.6129032258064516",
+              "value": "0.24313725490196078"
+            }
+          },
+          {
+            "id": "textocomparador",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "168.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "COMPARADORES",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "comparadores",
+      "size": {
+        "width": 210.0,
+        "height": 32.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

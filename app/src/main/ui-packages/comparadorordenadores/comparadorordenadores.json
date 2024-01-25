@@ -1,0 +1,168 @@
+{
+  "name": "comparadorordenadores",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "153:132",
+    "version": "5033842856",
+    "component-id": "cd3c79cf1edde0e337fbcd004af8e8affe4098de"
+  },
+  "default": "comparadorordenadores",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "textocomparadorpc"
+      },
+      {
+        "type": "image",
+        "id": "imagencomparadorpc"
+      }
+    ],
+    "modes": {
+      "comparadorordenadores": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "tap-handler": "$on_comparadorordenadores_tapped",
+            "is-structured": "false",
+            "children": [
+              "textocomparadorpc",
+              "imagencomparadorpc"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.51"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.99",
+                    "y": "0.04"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.95"
+                  },
+                  {
+                    "x": "0.53",
+                    "y": "-5.71"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "textocomparadorpc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "8.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "312.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "PC & Portatiles",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "imagencomparadorpc",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "31.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "329.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "65.0"
+              }
+            },
+            "image-content": "imagencomparadorpc.png",
+            "scale": "fill"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_comparadorordenadores_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "comparadorordenadores",
+      "size": {
+        "width": 329.0,
+        "height": 96.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

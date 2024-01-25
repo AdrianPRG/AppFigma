@@ -1,0 +1,168 @@
+{
+  "name": "ofertasportatiles",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "153:112",
+    "version": "5033397877",
+    "component-id": "57cb7676c5ba48236fe2c13d816d80e39e4b22b7"
+  },
+  "default": "ofertasportatiles",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "imagenportatil"
+      },
+      {
+        "type": "text",
+        "id": "textoportatil"
+      }
+    ],
+    "modes": {
+      "ofertasportatiles": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "tap-handler": "$on_ofertasportatiles_tapped",
+            "is-structured": "false",
+            "children": [
+              "imagenportatil",
+              "textoportatil"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.9230769230769",
+                      "saturation": "0.5777777777777778",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.32"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.77165354330708",
+                      "saturation": "0.5497835497835498",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.96",
+                    "y": "0.03"
+                  },
+                  {
+                    "x": "0.03",
+                    "y": "0.97"
+                  },
+                  {
+                    "x": "0.73",
+                    "y": "-0.35"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "imagenportatil",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "146.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.0"
+              }
+            },
+            "image-content": "imagenportatil.png",
+            "scale": "cover"
+          },
+          {
+            "id": "textoportatil",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-41.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "132.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Portatiles",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_ofertasportatiles_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Para ir a ofertas/buscar"
+    }
+  },
+  "previews": [
+    {
+      "design": "ofertasportatiles",
+      "size": {
+        "width": 146.0,
+        "height": 118.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

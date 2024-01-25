@@ -1,0 +1,168 @@
+{
+  "name": "comparadorprecio",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "153:123",
+    "version": "5033818413",
+    "component-id": "bb2318de2fdcd9a2d41fd275c4c1183c7a64cbc9"
+  },
+  "default": "comparadorprecio",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "imagencomparadorport"
+      },
+      {
+        "type": "text",
+        "id": "textocomprecio"
+      }
+    ],
+    "modes": {
+      "comparadorprecio": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "tap-handler": "$on_comparadorprecio_tapped",
+            "is-structured": "false",
+            "children": [
+              "imagencomparadorport",
+              "textocomprecio"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.75324675324674",
+                      "saturation": "0.5703703703703704",
+                      "value": "0.5294117647058824"
+                    },
+                    "color-stop-position": "0.36"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "226.66666666666666",
+                      "saturation": "0.5454545454545455",
+                      "value": "0.9058823529411765"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.97",
+                    "y": "0.03"
+                  },
+                  {
+                    "x": "0.03",
+                    "y": "0.97"
+                  },
+                  {
+                    "x": "0.5",
+                    "y": "-0.77"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "imagencomparadorport",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "17.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "147.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "83.0"
+              }
+            },
+            "image-content": "imagencomparadorport.png",
+            "scale": "fill"
+          },
+          {
+            "id": "textocomprecio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-41.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "142.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Precios",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_comparadorprecio_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "comparadorprecio",
+      "size": {
+        "width": 147.0,
+        "height": 118.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
