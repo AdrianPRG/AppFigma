@@ -1,0 +1,342 @@
+{
+  "name": "menuabajo",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "149:255",
+    "version": "5025663319",
+    "component-id": "f46c924a6880815e2e63801d5ba93237b3f0c15a"
+  },
+  "default": "Menuabajo",
+  "documentation": "Componente de la parte de abajo para las screens para la navegación",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "usuario"
+      },
+      {
+        "type": "group",
+        "id": "buscar"
+      },
+      {
+        "type": "group",
+        "id": "carrito"
+      },
+      {
+        "type": "group",
+        "id": "casa"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      }
+    ],
+    "modes": {
+      "Menuabajo": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "usuario",
+              "buscar",
+              "carrito",
+              "casa"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "222.5806451612903",
+                      "saturation": "0.7654320987654321",
+                      "value": "0.3176470588235294"
+                    },
+                    "color-stop-position": "0.31"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "223.125",
+                      "saturation": "0.5680473372781065",
+                      "value": "0.6627450980392157"
+                    },
+                    "color-stop-position": "0.99"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "1.0",
+                    "y": "0.06"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "1.0"
+                  },
+                  {
+                    "x": "0.53",
+                    "y": "-15.76"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "usuario",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "124.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "tap-handler": "$on_usuario_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "buscar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "36.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "tap-handler": "$on_buscar_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector3"
+            ]
+          },
+          {
+            "id": "carrito",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-52.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "tap-handler": "$on_carrito_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector2"
+            ]
+          },
+          {
+            "id": "casa",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-132.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "tap-handler": "$on_casa_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector1"
+            ]
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "8.84210205078125",
+              "top": "2.4736785888671875",
+              "right": "9.15789794921875",
+              "bottom": "3.4013214111328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": "7.61602783203125",
+              "top": "7.380950927734375",
+              "right": "7.617973327636719",
+              "bottom": "7.531761169433594"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": "6.4000244140625",
+              "top": "5.465118408203125",
+              "right": "6.467491149902344",
+              "bottom": "5.08050537109375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.6021833419799805"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.128957748413086"
+              }
+            },
+            "vector-content": "vector1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_usuario_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Al pulsar va a la sección usuario"
+    },
+    "on_buscar_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Al pulsar va a la sección buscar"
+    },
+    "on_carrito_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Al pulsar va a la seccion carrito"
+    },
+    "on_casa_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Al pulsar va a la sección home"
+    }
+  },
+  "previews": [
+    {
+      "design": "Menuabajo",
+      "size": {
+        "width": 360.0,
+        "height": 64.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

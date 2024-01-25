@@ -1,0 +1,270 @@
+{
+  "name": "menuarriba",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "QmXS1GB22Pc88S14oqzBeP",
+    "node": "149:312",
+    "version": "5025673528",
+    "component-id": "dfa9960e4f69339492a28e4e226fee9209888e54"
+  },
+  "default": "Menuarriba",
+  "documentation": "Menu de arriba que permite navegar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "logo"
+      },
+      {
+        "type": "group",
+        "id": "campobuscar"
+      },
+      {
+        "type": "group",
+        "id": "lupita"
+      },
+      {
+        "type": "text",
+        "id": "textobuscar"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Menuarriba": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "logo",
+              "campobuscar",
+              "lupita"
+            ],
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "223.125",
+                      "saturation": "0.5680473372781065",
+                      "value": "0.6627450980392157"
+                    },
+                    "color-stop-position": "0.0"
+                  },
+                  {
+                    "color": {
+                      "alpha": "1.0",
+                      "hue": "223.125",
+                      "saturation": "0.5680473372781065",
+                      "value": "0.6627450980392157"
+                    },
+                    "color-stop-position": "1.0"
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": "0.5",
+                    "y": "0.0"
+                  },
+                  {
+                    "x": "0.5",
+                    "y": "1.0"
+                  },
+                  {
+                    "x": "0.0",
+                    "y": "0.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-138.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "67.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "image-content": "logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "campobuscar",
+            "border-radius": "4.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "20.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "209.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "textobuscar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.020576131687242726",
+              "value": "0.9529411764705882"
+            }
+          },
+          {
+            "id": "lupita",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "96.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$on_lupita_tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "textobuscar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-33.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "127.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "51.42857142857143",
+              "saturation": "0.5303030303030303",
+              "value": "0.25882352941176473"
+            },
+            "text-content": "$texto_a_buscar",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.25",
+            "typeface": "Libre Bodoni"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "3.8079833984375",
+              "top": "3.769012451171875",
+              "right": "3.8090152740478516",
+              "bottom": "3.845989227294922"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on_lupita_tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "Botón que redirige "
+    },
+    "texto_a_buscar": {
+      "data-type": "text",
+      "required": false,
+      "description": "Texto para buscar"
+    }
+  },
+  "previews": [
+    {
+      "design": "Menuarriba",
+      "size": {
+        "width": 360.0,
+        "height": 104.0
+      },
+      "parameters": {
+        "texto_a_buscar": "Pulsa para buscar..."
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
